@@ -125,7 +125,7 @@
         "dofqdn": "doazlab.com",
         "doc2": "metasploit",
         "doc2ubuntusku": "22.04-lts",
-        "doworkspaceprefix": "LA-workspace",
+        "doworkspaceprefix": "LA-workspace-lab",
         "doremoteaccessmode": "AllowPublicIP"
     },
   "resources": [
@@ -184,7 +184,7 @@
         "destinations": {
           "logAnalytics": [
             {
-              "name": "WindowsEvents",
+              "name": "WindowsEventsTest",
               "workspaceId": "[reference('Deploy-Sentinel').outputs.workspaceIdOutput.value]",
               "workspaceResourceId": "[reference('Deploy-Sentinel').outputs.workspaceResourceIdOutput.value]"
             }
@@ -196,7 +196,7 @@
               "Microsoft-WindowsEvent"
             ],
             "destinations": [
-              "WindowsEvents"
+              "WindowsEventsTest"
             ]
           }
         ]
