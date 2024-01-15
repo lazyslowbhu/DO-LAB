@@ -185,7 +185,7 @@
         "destinations": {
           "logAnalytics": [
             {
-              "name": "WindowsEventsTest",
+              "name": "WindowsEvents",
               "workspaceId": "[reference('Deploy-Sentinel').outputs.workspaceIdOutput.value]",
               "workspaceResourceId": "[reference('Deploy-Sentinel').outputs.workspaceResourceIdOutput.value]"
             }
@@ -197,7 +197,7 @@
               "Microsoft-WindowsEvent"
             ],
             "destinations": [
-              "WindowsEventsTest"
+              "WindowsEvents"
             ]
           }
         ]
