@@ -4,9 +4,6 @@
   "parameters": {
     "workspaceName": {
       "type": "string"
-    },
-    "location": {
-      "type": "string"
     }
   },
   "variables": {},
@@ -24,9 +21,6 @@
         "parameters": {
           "Workspace": {
             "value": "[parameters('workspaceName')]"
-          },
-          "location": {
-            "value": "[parameters('location')]"
           }
         }
       }
@@ -44,9 +38,6 @@
         "parameters": {
           "Workspace": {
             "value": "[parameters('workspaceName')]"
-          },
-          "location": {
-            "value": "[parameters('location')]"
           }
         }
       }
@@ -64,9 +55,6 @@
         "parameters": {
           "Workspace": {
             "value": "[parameters('workspaceName')]"
-          },
-          "location": {
-            "value": "[parameters('location')]"
           }
         }
       }
@@ -84,9 +72,6 @@
         "parameters": {
           "Workspace": {
             "value": "[parameters('workspaceName')]"
-          },
-          "location": {
-            "value": "[parameters('location')]"
           }
         }
       }
@@ -104,9 +89,6 @@
         "parameters": {
           "Workspace": {
             "value": "[parameters('workspaceName')]"
-          },
-          "location": {
-            "value": "[parameters('location')]"
           }
         }
       }
@@ -124,9 +106,6 @@
         "parameters": {
           "Workspace": {
             "value": "[parameters('workspaceName')]"
-          },
-          "location": {
-            "value": "[parameters('location')]"
           }
         }
       }
@@ -144,9 +123,6 @@
         "parameters": {
           "Workspace": {
             "value": "[parameters('workspaceName')]"
-          },
-          "location": {
-            "value": "[parameters('location')]"
           }
         }
       }
@@ -164,9 +140,6 @@
         "parameters": {
           "Workspace": {
             "value": "[parameters('workspaceName')]"
-          },
-          "location": {
-            "value": "[parameters('location')]"
           }
         }
       }
@@ -184,9 +157,6 @@
         "parameters": {
           "Workspace": {
             "value": "[parameters('workspaceName')]"
-          },
-          "location": {
-            "value": "[parameters('location')]"
           }
         }
       }
@@ -204,9 +174,6 @@
         "parameters": {
           "Workspace": {
             "value": "[parameters('workspaceName')]"
-          },
-          "location": {
-            "value": "[parameters('location')]"
           }
         }
       }
