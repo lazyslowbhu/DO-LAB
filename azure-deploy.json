@@ -109,7 +109,7 @@
     }
   },
     "variables": {
-        "uri_sysmonWindowsParserPackTemplate": "https://raw.githubusercontent.com/DefensiveOrigins/DO-LAB/main/Monitoring/SysmonFullDeployment.json",
+        "uri_sysmonWindowsParserPackTemplate": "https://raw.githubusercontent.com/lazyslowbhu/DO-LAB/main/Monitoring/SysmonFullDeployment.json",
         "uri_DeploySentinel": "https://raw.githubusercontent.com/DefensiveOrigins/DO-LAB/main/Sentinel/azuredeploy-sentinel.json",
         "uri_collectWinDataSources": "https://raw.githubusercontent.com/DefensiveOrigins/DO-LAB/main/Sentinel/templates/winDataSources.json",
         "uri_azure_win10_ad": "https://raw.githubusercontent.com/lazyslowbhu/DO-LAB/main/Win10-AD/azuredeploy-ad.json",
