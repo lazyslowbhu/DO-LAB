@@ -247,9 +247,6 @@
         "parameters": {
           "workspaceName": {
             "value": "[reference('Deploy-Sentinel').outputs.workspaceName.value]"
-          },
-          "location": {
-            "value": "[parameters('location')]"
           }
         }
       }
