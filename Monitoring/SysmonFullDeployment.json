@@ -2,7 +2,7 @@
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "Workspace": {
+    "workspaceName": {
       "type": "string"
     },
     "location": {
@@ -22,8 +22,8 @@
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
-          "workspaceName": {
-            "value": "[parameters('Workspace')]"
+          "Workspace": {
+            "value": "[parameters('workspaceName')]"
           },
           "location": {
             "value": "[parameters('location')]"
@@ -42,8 +42,8 @@
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
-          "workspaceName": {
-            "value": "[parameters('Workspace')]"
+          "Workspace": {
+            "value": "[parameters('workspaceName')]"
           },
           "location": {
             "value": "[parameters('location')]"
@@ -62,8 +62,8 @@
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
-          "workspaceName": {
-            "value": "[parameters('Workspace')]"
+          "Workspace": {
+            "value": "[parameters('workspaceName')]"
           },
           "location": {
             "value": "[parameters('location')]"
@@ -82,8 +82,8 @@
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
-          "workspaceName": {
-            "value": "[parameters('Workspace')]"
+          "Workspace": {
+            "value": "[parameters('workspaceName')]"
           },
           "location": {
             "value": "[parameters('location')]"
@@ -102,8 +102,8 @@
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
-          "workspaceName": {
-            "value": "[parameters('Workspace')]"
+          "Workspace": {
+            "value": "[parameters('workspaceName')]"
           },
           "location": {
             "value": "[parameters('location')]"
@@ -122,8 +122,8 @@
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
-          "workspaceName": {
-            "value": "[parameters('Workspace')]"
+          "Workspace": {
+            "value": "[parameters('workspaceName')]"
           },
           "location": {
             "value": "[parameters('location')]"
@@ -142,8 +142,8 @@
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
-          "workspaceName": {
-            "value": "[parameters('Workspace')]"
+          "Workspace": {
+            "value": "[parameters('workspaceName')]"
           },
           "location": {
             "value": "[parameters('location')]"
@@ -162,8 +162,8 @@
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
-          "workspaceName": {
-            "value": "[parameters('Workspace')]"
+          "Workspace": {
+            "value": "[parameters('workspaceName')]"
           },
           "location": {
             "value": "[parameters('location')]"
@@ -182,8 +182,8 @@
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
-          "workspaceName": {
-            "value": "[parameters('Workspace')]"
+          "Workspace": {
+            "value": "[parameters('workspaceName')]"
           },
           "location": {
             "value": "[parameters('location')]"
@@ -202,8 +202,8 @@
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
-          "workspaceName": {
-            "value": "[parameters('Workspace')]"
+          "Workspace": {
+            "value": "[parameters('workspaceName')]"
           },
           "location": {
             "value": "[parameters('location')]"
