@@ -245,7 +245,7 @@
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
-          "Workspace": {
+          "workspaceName": {
             "value": "[reference('Deploy-Sentinel').outputs.workspaceName.value]"
           },
           "location": {
